@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  height: 100px;
+  background-color: #1C1C1C;
+  align-items: center;
+  
+}
+.header .logo{
+  width: 23%;
+  height: 100%;
+}
+.header .logo img{
+
+  height: 100%;
+}
+.header .searchBar{
+  width: 48%;
+}
+.header .thirdPart{
+  width: 23%;
+  display: flex;
+  justify-content: end;
+}
+.header .searchBar input{
+  width: 100%;
+  border: 0px;
+  border-radius: 20px;
+  padding: 10px;
+}
